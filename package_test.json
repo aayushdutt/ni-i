@@ -1,3 +1,7 @@
 {
-  "hey": "WHat?"
+  "name": "Hey",
+  "version": "1.2",
+  "main": "app.js",
+  "author": "Aayush Dutt",
+  "license": "ISC"
 }

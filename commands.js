@@ -2,14 +2,12 @@
 
 const program = require('commander')
 const {prompt} = require('inquirer')
-const {
-  initialisePackage
-} = require('./index')
 
+const {initialisePackage} = require('./index')
 
 program
   .version('1.0.0')
-  .description('Client Management System')
+  .description('npm init Clone')
 
 
 // Customer Questions
@@ -26,6 +24,11 @@ const questions = [
   },
   {
     type: 'input',
+    name: 'description',
+    message: 'App description'
+  },
+  {
+    type: 'input',
     name: 'main',
     message: 'Root file'
   },
@@ -38,12 +41,12 @@ const questions = [
     type: 'input',
     name: 'license',
     message: 'App license'
-  },  
+  }
 ]
 
 
 
-// Add Command
+// init Command
 program
   .command('init')
   .alias('a=i')
