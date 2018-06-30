@@ -1,6 +1,4 @@
 node_modules
 yarn.lock
 .dist
-test
-package_test.json
 package-lock.json
