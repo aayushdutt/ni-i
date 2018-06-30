@@ -52,7 +52,7 @@ const questions = [
 // init Command
 program
   .command('init')
-  .alias('a=i')
+  .alias('i')
   .description('Initialise package.json')
   .action(() => {
     prompt(questions)
