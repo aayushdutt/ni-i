@@ -20,7 +20,8 @@ const questions = [
   {
     type: 'input',
     name: 'version',
-    message: 'App version'
+    message: 'App version',
+    default: '1.0.0'
   },
   {
     type: 'input',
@@ -30,7 +31,8 @@ const questions = [
   {
     type: 'input',
     name: 'main',
-    message: 'Root file'
+    message: 'Root file',
+    default: 'app.js'
   },
   {
     type: 'input',
@@ -40,7 +42,8 @@ const questions = [
   {
     type: 'input',
     name: 'license',
-    message: 'App license'
+    message: 'App license',
+    default: 'MIT'
   }
 ]
 

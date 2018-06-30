@@ -7,7 +7,7 @@ const initialisePackage = (data) => {
   data.dependencies = {}
 
 
-  fs.writeFile("./package_test.json", JSON.stringify(data, null, 2), function(err) {
+  fs.writeFile("./package.json", JSON.stringify(data, null, 2), function(err) {
     if(err) {
         return console.log(err);
     }
